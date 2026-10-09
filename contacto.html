@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto | INSUCOVAL</title>
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <nav>
+
+            <!-- LOGO -->
+
+            <a href="index.html" class="logo">
+
+                <div class="espacio-logo">
+
+                    <img
+                        src="C:\Users\Alumno\Desktop\Cristobal Rojas\proyecto\ChatGPT Image 9 sept 2026, 12_48_31.png"
+                        alt="Logo INSUCOVAL">
+
+                </div>
+
+                <span>INSUCOVAL</span>
+
+            </a>
+
+
+            <!-- MENÚ -->
+
+            <ul>
+
+                <li>
+                    <a href="index.html">
+                        <i data-lucide="house"></i>
+                        Inicio
+                    </a>
+                </li>
+
+                <li>
+                    <a href="index.html#laboratorios">
+                        <i data-lucide="monitor"></i>
+                        Laboratorios
+                    </a>
+                </li>
+
+                <li>
+                    <a href="index.html#equipamiento">
+                        <i data-lucide="cpu"></i>
+                        Equipamiento
+                    </a>
+                </li>
+
+                <li>
+                    <a href="index.html#instituto">
+                        <i data-lucide="school"></i>
+                        Instituto
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contacto.html">
+                        <i data-lucide="mail"></i>
+                        Contacto
+                    </a>
+                </li>
+
+                <li>
+                    <a href="sobre-mi.html">
+                        <i data-lucide="circle-help"></i>
+                        Sobre mí
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ================= CONTENIDO ================= -->
+
+    <main>
+
+
+        <!-- ================= PRESENTACIÓN ================= -->
+
+        <section class="hero">
+
+            <div>
+
+                <h2>
+
+                    <i data-lucide="mail"></i>
+
+                    Contacto
+
+                </h2>
+
+                <p>
+                    Ponte en contacto con nosotros.
+                </p>
+
+                <p>
+                    En esta sección encontrarás información
+                    para comunicarte con el Instituto Superior
+                    de Comercio Francisco Araya Bennett
+                    de Valparaíso.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= INFORMACIÓN ================= -->
+
+        <section class="seccion">
+
+            <h2>
+
+                <i data-lucide="info"></i>
+
+                Información de contacto
+
+            </h2>
+
+
+            <div class="equipos">
+
+
+                <!-- INSTITUTO -->
+
+                <article>
+
+                    <i data-lucide="school"></i>
+
+                    <h3>
+                        Instituto
+                    </h3>
+
+                    <p>
+                        Instituto Superior de Comercio
+                        Francisco Araya Bennett de Valparaíso.
+                    </p>
+
+                </article>
+
+
+                <!-- DIRECCIÓN -->
+
+                <article>
+
+                    <i data-lucide="map-pin"></i>
+
+                    <h3>
+                        Ubicación
+                    </h3>
+
+                    <p>
+                        Valparaíso, Chile.
+                    </p>
+
+                </article>
+
+
+                <!-- CORREO -->
+
+                <article>
+
+                    <i data-lucide="mail"></i>
+
+                    <h3>
+                        Correo electrónico
+                    </h3>
+
+                    <p>
+                        [CORREO DEL INSTITUTO]
+                    </p>
+
+                </article>
+
+
+                <!-- HORARIO -->
+
+                <article>
+
+                    <i data-lucide="clock"></i>
+
+                    <h3>
+                        Horario
+                    </h3>
+
+                    <p>
+                        [HORARIO DE ATENCIÓN]
+                    </p>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= FORMULARIO ================= -->
+
+        <section class="seccion oscuro">
+
+            <h2>
+
+                <i data-lucide="send"></i>
+
+                Envíanos un mensaje
+
+            </h2>
+
+
+            <div class="formulario-contacto">
+
+                <form id="formContacto">
+
+
+                    <!-- NOMBRE -->
+
+                    <label for="nombre">
+                        Nombre
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Escribe tu nombre"
+                        required
+                    >
+
+
+                    <!-- CORREO -->
+
+                    <label for="correo">
+                        Correo electrónico
+                    </label>
+
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        placeholder="ejemplo@correo.com"
+                        required
+                    >
+
+
+                    <!-- ASUNTO -->
+
+                    <label for="asunto">
+                        Asunto
+                    </label>
+
+                    <input
+                        type="text"
+                        id="asunto"
+                        name="asunto"
+                        placeholder="¿Sobre qué quieres comunicarte?"
+                        required
+                    >
+
+
+                    <!-- MENSAJE -->
+
+                    <label for="mensaje">
+                        Mensaje
+                    </label>
+
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        rows="6"
+                        placeholder="Escribe tu mensaje..."
+                        required
+                    ></textarea>
+
+
+                    <!-- BOTÓN -->
+
+                    <button
+                        type="submit"
+                        class="boton"
+                    >
+
+                        <i data-lucide="send"></i>
+
+                        Enviar mensaje
+
+                    </button>
+
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= LABORATORIOS ================= -->
+
+        <section class="seccion informacion">
+
+            <h2>
+
+                <i data-lucide="monitor"></i>
+
+                Consultas sobre los laboratorios
+
+            </h2>
+
+
+            <p>
+                Si tienes consultas relacionadas con los
+                laboratorios de computación, puedes revisar
+                la información disponible en nuestro sitio.
+            </p>
+
+
+            <p>
+                Allí encontrarás información sobre los
+                diferentes laboratorios y los recursos
+                tecnológicos disponibles.
+            </p>
+
+
+            <br>
+
+
+            <a href="index.html#laboratorios" class="boton">
+
+                <i data-lucide="monitor"></i>
+
+                Ver laboratorios
+
+            </a>
+
+        </section>
+
+
+
+        <!-- ================= VOLVER ================= -->
+
+        <section class="contacto">
+
+            <h2>
+
+                <i data-lucide="arrow-left"></i>
+
+                Volver al sitio principal
+
+            </h2>
+
+
+            <p>
+                Regresa a la página principal de INSUCOVAL.
+            </p>
+
+
+            <br>
+
+
+            <a href="index.html" class="boton">
+
+                <i data-lucide="house"></i>
+
+                Volver al inicio
+
+            </a>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 Instituto Superior de Comercio
+            Francisco Araya Bennett de Valparaíso
+        </p>
+
+        <p>
+
+            <i data-lucide="mail"></i>
+
+            Página de contacto
+
+        </p>
+
+    </footer>
+
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+    <script>
+        lucide.createIcons();
+    </script>
+
+</body>
+
+</html>
